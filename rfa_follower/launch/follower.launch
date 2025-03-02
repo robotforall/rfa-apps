@@ -9,7 +9,7 @@
       <arg name="navigation_topic" value="/cmd_vel_mux/input/navi"/>
     </include>
 
-    <include file="$(find rchomeedu_vision)/launch/multi_astra.launch">
+    <include file="$(find rfa_vision)/launch/multi_astra.launch">
       <arg name="rgb_processing"                  value="true"/>  <!-- only required if we use android client -->
       <arg name="depth_processing"                value="true"/>
       <arg name="depth_registered_processing"     value="false"/>
